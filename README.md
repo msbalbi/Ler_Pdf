@@ -24,6 +24,8 @@ Itera por cada página no PDF, extrai o texto e salva em um arquivo TXT separado
 
 Variáveis ​​de caminho: Define o caminho do PDF e o diretório de saída.
 
-Chamada da função: Chama a função extract_and_save_textcom os caminhos fornecidos.
+Chamada da função: Chama a função extract_and_save_text com os caminhos fornecidos.
 
-Esse script vai criar arquivos TXT sem diretório especificado, cada um contendo o texto de uma página do PDF. Se o PDF contém tabelas em formato de texto, essas tabelas serão extraídas no formato de texto bruto. Para um processamento mais sofisticado de tabelas (por exemplo, se precisar de conversor de tabelas em DataFrames do pandas), seria necessário um processamento adicional usando bibliotecas como pdfplumberou camelot-py.
+Esse script vai criar arquivos TXT sem diretório especificado, cada um contendo o texto de uma página do PDF. 
+Se o PDF contém tabelas em formato de texto, essas tabelas serão extraídas no formato de texto bruto. 
+Para um processamento mais sofisticado de tabelas (por exemplo, se precisar de conversor de tabelas em DataFrames do pandas), seria necessário um processamento adicional usando bibliotecas como pdfplumber ou camelot-py mas o exemplo aqui ira ler todo pdf e salvar em pdf.
