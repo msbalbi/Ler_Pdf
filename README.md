@@ -5,7 +5,7 @@ Para ler um arquivo PDF que contém tabelas, dividir por página e salvar as inf
 
 
 Instalação de bibliotecas com permissão
-Para rodar o script, você precisa instalar as bibliotecas PyMuPDFe pandas. Você pode convidá-los usando o pip:
+Para rodar o script, você precisa instalar as bibliotecas PyMuPDFe pandas.
 
 pip install pymupdf pandas
 
